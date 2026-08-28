@@ -111,7 +111,9 @@ don't need to be beautiful, but they must capture and communicate not only the b
 and the people around it. If you're new to storyboarding, read
 [this explanation](https://www.nngroup.com/articles/storyboards-visualize-ideas/).
 
-**Include pictures of your storyboards here.**
+<img width="891" height="519" alt="Storyboard1" src="https://github.com/user-attachments/assets/043be9d2-fc45-4ca5-9fb3-698c994c3520" />
+<img width="891" height="519" alt="Storyboard2" src="https://github.com/user-attachments/assets/b684a301-11e1-4f68-ae49-9ab0dfab1a53" />
+<img width="891" height="519" alt="Storyboard3" src="https://github.com/user-attachments/assets/d4349d73-9cba-4cd9-9744-ac872d2bf2ae" />
 
 Use the storyboards to decide what interaction to prototype.
 
