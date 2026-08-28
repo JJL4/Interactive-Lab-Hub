@@ -132,6 +132,8 @@ it aloud.
 **Are there key moments in the interaction where things could go in a different direction?**
 Iterate your storyboards to capture key non-sequential aspects of the interaction. 
 
+**Testing it out mentally, I have determined that it might be hard to have someone wake up just from the light since real awakening is subtle and slow and just changing the room light to ambient colors might not be enough. It is why the typical way of having noisy alarms typically work. We have heavy sleepers and light sleepers, not everyone will react the same way. A new idea that I have thought of is to add another person who has no idea about the wake-up light being set up before and testing their reactions from the wake-up light can bring new ideas to the table and see if there is anything of note to write down. The second and third storyboard might have some differences in another direction: what if even a light sleeper does not wake up from the lights at all and only woke up from sound? I also suggested what if we have a roommate in the room and test their reaction especially if they didn't know about the wake-up light beforehand.
+
 ## Part C. Prototype the Light (light first!)
 
 Use your smartphone as the light of your device. Open the browser on your phone
