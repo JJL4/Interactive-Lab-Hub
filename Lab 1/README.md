@@ -2,9 +2,9 @@
 
 _This project is to be done in teams of 2._
 
-**NAME OF BOTH COLLABORATOR(S) HERE**
+**Jerry Lee Yuqi Wang**
 
-**THE MASTERWORK YOU DREW FROM THE HAT:**
+**THE MASTERWORK YOU DREW FROM THE HAT: Philips Wake-Up Light (A lamp that simulates dawn to wake you gently before the alarm).**
 
 ---
 
@@ -89,8 +89,9 @@ the interaction*:
 
   Sometimes the details of how the interaction worked are lost in history. Try filling it in with your imagination!
 
-**Describe your masterwork here, in your own words. What is the core interaction
-someone would recognize it by?**
+**The Philips Wake-Up Light was commercialized in the early 2000s and its function was to replace the abruptness of a beeping alarm clock with a slow arrival. The company Philips in the 2000s was building on their chronobiology research about how light regulations circadian rhythm for their consumer well-being with light therapy line. Users with this technology can set a wake-up time, snooze or dismiss the alarm once sounds starting to play, ability to manually override brightness and/or color depending on the model, and adjusting light intensity and duration and sound choice in the settings. The responses the device would give would be slow, continuous change in color and brightness over 20-30 minutes before it starts playing ambient sounds when the alarm is supposed to be alarmed. If the user still has not responded, then the device would begin playing a louder alarm. If the user was able to snooze or dismiss the alarm, it stops and it waits until the next time the user wants to be awake according to its settings. A sleeper is involved with other people in the room if there are multiple sleepers in the room. The light would fill up the whole room and the person who set the alarm the night before is depending on their future self to wake up. 
+
+This device was famous because it was seen as a lucrative alternative to alarm clocks by providing an ambient wake-up experience that can be especially useful for people living in the winter or rooms without windows. Some strengths include providing a non-jarring, humane wake experience and reduces sleep half-awaking feeling and provides an escalation design to have the light do the work first, then the ambient sounds, and finally the loud alarm. Some weaknesses such as if the user is a heavy sleeper, they would most likely only experience the loud alarm and never experience the slow ambient new morning feeling or that the interaction as a concept between the user and the device is technically never seen since the user most likely will never see the transition of colors at first and most likely just wake up at the later stages of the color changes or sound stages.**
 
 ## Part A. Plan
 
