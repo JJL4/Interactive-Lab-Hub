@@ -104,7 +104,7 @@ For your masterwork, reconstruct the interaction as a scene:
 - **Activity:** What is happening between the players and the light?
 - **Goals:** What is each player trying to do?
 
-**Describe your setting, players, activity, and goals here.**
+**Setting would be a bedroom most likely before dawn and dark. ALso preferable for the room to have no natural light source visible. Players would include a sleeper who will be unaware of the time and dependent on the product to wake up from the light and our phone which can act as the Philips Wake-Up Light that goes through all of the light colors using the Tinkerbelle tool to simulate the light switching, a random ambient sound, and then a loud alarm. The activity would have the lamp begin a slow color and brightness ramp from nothing to red to orange to then a warm white over a compressed time window of maybe 60 seconds instead of the 20 to 30 minutes in the original product. The sleeper should be unresponsive during the early-stages of the lights, but they should respond when it s around the orange to warm white light and should wake naturally before the ambient and loud sounds. The sleeper's goal is to wake up gently and hopefully without a loud sound waking them up and the phone's goal is to wake the sleeper up with the least amount of work through its stages.**
 
 Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
 don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
