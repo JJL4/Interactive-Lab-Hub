@@ -5,6 +5,7 @@ _This project is to be done in teams of 2._
 **Jerry Lee Yuqi Wang**
 
 **THE MASTERWORK YOU DREW FROM THE HAT: Philips Wake-Up Light (A lamp that simulates dawn to wake you gently before the alarm).**
+<img width="1264" height="2247" alt="20260828_160906" src="https://github.com/user-attachments/assets/09d417a7-666e-401f-b0a0-4937c87a9eb0" />
 
 ---
 
