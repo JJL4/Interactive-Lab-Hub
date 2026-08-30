@@ -104,20 +104,21 @@ For your masterwork, reconstruct the interaction as a scene:
 - **Activity:** What is happening between the players and the light?
 - **Goals:** What is each player trying to do?
 
-**Setting would be a bedroom most likely before dawn and dark. ALso preferable for the room to have no natural light source visible. Players would include a sleeper who will be unaware of the time and dependent on the product to wake up from the light and our phone which can act as the Philips Wake-Up Light that goes through all of the light colors using the Tinkerbelle tool to simulate the light switching, a random ambient sound, and then a loud alarm. The activity would have the lamp begin a slow color and brightness ramp from nothing to red to orange to then a warm white over a compressed time window of maybe 60 seconds instead of the 20 to 30 minutes in the original product. The sleeper should be unresponsive during the early-stages of the lights, but they should respond when it s around the orange to warm white light and should wake naturally before the ambient and loud sounds. The sleeper's goal is to wake up gently and hopefully without a loud sound waking them up and the phone's goal is to wake the sleeper up with the least amount of work through its stages.**
+**Setting would be a bedroom most likely before dawn and dark. Also preferable for the room to have no natural light source visible. Players would include a sleeper who will be unaware of the time and dependent on the product to wake up from the light and another user with the Tinkerbelle tool which can act as the Philips Wake-Up Light that goes through all of the light colors simulating the light switching, a random ambient sound, and then a loud alarm. The activity would have the other user with the Tinkerbelle tool begin a slow color and brightness ramp from nothing to red to orange to then a warm white over a compressed time window of maybe 60 seconds instead of the 20 to 30 minutes in the original product. The sleeper should be unresponsive during the early-stages of the lights, but they should respond when it is around the orange to warm white light and should wake naturally before the ambient and loud sounds. The sleeper's goal is to wake up gently and hopefully without a loud sound waking them up and the phone's goal is to wake the sleeper up with the least amount of work through its stages.**
 
 Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
 don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
 and the people around it. If you're new to storyboarding, read
 [this explanation](https://www.nngroup.com/articles/storyboards-visualize-ideas/).
 
-<img width="891" height="519" alt="Storyboard1" src="https://github.com/user-attachments/assets/043be9d2-fc45-4ca5-9fb3-698c994c3520" />
-<img width="891" height="519" alt="Storyboard2" src="https://github.com/user-attachments/assets/b684a301-11e1-4f68-ae49-9ab0dfab1a53" />
-<img width="891" height="519" alt="Storyboard3" src="https://github.com/user-attachments/assets/d4349d73-9cba-4cd9-9744-ac872d2bf2ae" />
+<img width="1185" height="519" alt="Storyboard1" src="https://github.com/user-attachments/assets/aba936a0-50be-4508-970a-7a06fd1ebd38" />
+<img width="1185" height="519" alt="Storyboard2" src="https://github.com/user-attachments/assets/3bc6b4f6-a2f8-4fcf-9789-2c1ff5439e84" />
+<img width="1409" height="519" alt="Storyboard3" src="https://github.com/user-attachments/assets/e36f82ec-8738-441a-bddc-7dae63706b2b" />
+
 
 Use the storyboards to decide what interaction to prototype.
 
-**Summarize the feedback you got here.**
+**The feedback I got from a classmate and his teammate said that the art can be improved, but they do understand its a Philips Wake-Up Light and that the three storyboards are all possible ways for a sleeper to use the product.**
 
 ## Part B. Act out the Interaction
 
@@ -132,7 +133,7 @@ it aloud.
 **Are there key moments in the interaction where things could go in a different direction?**
 Iterate your storyboards to capture key non-sequential aspects of the interaction. 
 
-**Testing it out mentally, I have determined that it might be hard to have someone wake up just from the light since real awakening is subtle and slow and just changing the room light to ambient colors might not be enough. It is why the typical way of having noisy alarms typically work. We have heavy sleepers and light sleepers, not everyone will react the same way. A new idea that I have thought of is to add another person who has no idea about the wake-up light being set up before and testing their reactions from the wake-up light can bring new ideas to the table and see if there is anything of note to write down. The second and third storyboard might have some differences in another direction: what if even a light sleeper does not wake up from the lights at all and only woke up from sound? I also suggested what if we have a roommate in the room and test their reaction especially if they didn't know about the wake-up light beforehand.
+**Testing it out mentally, I have determined that it might be hard to have someone wake up just from the light since real awakening is subtle and slow and just changing the room light to ambient colors might not be enough. It is why the typical way of having noisy alarms typically work. We have heavy sleepers and light sleepers, not everyone will react the same way. A new idea that I have thought of is to add another person who has no idea about the wake-up light being set up before and testing their reactions from the wake-up light can bring new ideas to the table and see if there is anything of note to write down. I still think my storyboards are adequate enough to show three important potential ways to utilize the product.**
 
 ## Part C. Prototype the Light (light first!)
 
@@ -150,6 +151,8 @@ masterwork should you consider layering in a second modality (sound, vibration,
 motion). If in doubt, keep polishing the light. The other modalities are next
 week's business.
 
+**Here is a video of us testing the Tinkerbelle product in Part D. We would just have a light be secretly changed by the other person going through all the warm light colors until it reaches a bright white light while the other person sleeps and gets up from the light especially when it reaches a white bright light. we have no added the ambient and loud alarms yet since we are solely focusing on the light for this week.**
+
 ## Part D. Wizard the Device
 
 Set up a "wizard" arrangement so one person can secretly drive the light while
@@ -158,6 +161,11 @@ building any real electronics. (Zoom works well for recording; you can pin the
 video feed of whichever scene you want to capture.)
 
 **Include your first attempts at recording the wizarded set-up here.**
+
+
+https://github.com/user-attachments/assets/de9542c4-912b-4338-b797-469d27c955fb
+
+
 
 ## Part E. (optional) Costume the Device
 
@@ -181,9 +189,16 @@ who doesn't should come away understanding what it's famous for. How might you i
 
 **Include your video here.**
 
+
+https://github.com/user-attachments/assets/d4ae0e85-6bb5-42a5-b2c0-1e9afabed0f5
+
+
+
 **Please indicate who you collaborated with on this lab.** Be generous in
 acknowledging their contributions, and credit any other influences (YouTube,
 Github, Twitter, a friend who lent you a lamp) that informed your recreation.
+
+**In the video, the sleeper is me, Jerry Lee. My labmate, Yuqi Wang, is the one recording the video and using the Tinkerbelle program from his phone changing the colors over time while it also responds on his laptop.**
 
 ---
 
