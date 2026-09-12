@@ -198,6 +198,15 @@ We strongly discourage literal digital or analog clock display: Be creative.
 
 
 ** Insert ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf)), storyboards for your ideas **
+A clock is represented by a stick character walking through a landscape with morning in the left bottom, day in the bottom center, and evening in the right bottom. Button A shows the exact time while Button B shows how much more time it will be before a specific event that can be programmed in like Dinner in X hours X minutes or Night time in X hours and X minutes.
+
+<img width="1509" height="519" alt="normal" src="https://github.com/user-attachments/assets/ad14d596-7f1a-43d2-bc10-fb7f9daf829f" />
+Button A
+<img width="1509" height="519" alt="boring" src="https://github.com/user-attachments/assets/184cb1b5-5d26-42a2-91cf-65b1a6811fcb" />
+Button B
+<img width="1509" height="519" alt="button2" src="https://github.com/user-attachments/assets/584b011c-05ce-490c-a4ef-7f6b0789a1c9" />
+
+<img width="2094" height="1310" alt="The graph" src="https://github.com/user-attachments/assets/c21a3ed2-6a4c-464b-af5b-ab432cfc1284" />
 
 
 
