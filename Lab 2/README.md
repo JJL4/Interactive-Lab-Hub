@@ -213,6 +213,8 @@ Button B
 
 **Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
 
+Yuqi Wang (https://github.com/YuqiWang1106/Interactive-Lab-Hub/tree/Fall2026/Lab%202) has provided his feedback and I have likewise put feedback on his idea. Here is his feedback on my idea:
+I like the character moving through the day a lot. I think it’s a nice way to check the time without immediately turning it into numbers, and I could see myself just glancing at it to get a sense of whether it’s still morning, the middle of the day, or getting late. The two buttons make sense too, especially the next-event countdown — I think I would actually use that more than checking the exact time sometimes. I do wonder if “Morning / Day / Evening” might feel a little too broad though. I’d probably make the character move continuously across the landscape so I can tell the difference between, say, 1 PM and 4 PM without pressing anything. Maybe the sky or scenery could slowly change too. I think that would make the whole journey idea feel even stronger.
 # Lab 2 Part 2
 
 ## Prep 
