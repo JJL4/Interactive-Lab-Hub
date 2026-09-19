@@ -242,6 +242,8 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
+The file is called "journey_clock_barebones.py".
+
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your barely modified PiClock.**\*\*\*
@@ -264,12 +266,15 @@ Do take advantage of having done the previous iteration to refine and simplify y
 
 ** Insert any updates ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf))!, storyboards for your ideas **
 
+For the updated version, I simplified the "Day Journey" clock where the stick figure moves across the screen from morning to day to evening and then to night. The background and sun/moon will change depending on the current time so that the passage of time is easier to understand. Button A now shows exact time while its being held and Button B shows the next stage of the day and how long it remains to get to that time. The default screen is shown when neither buttons are held.
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
 https://github.com/user-attachments/assets/c2e5b5a1-8a6e-4c45-82f4-e0c296b48a22
+
+The code has been modified to convert all 24 hours of the day to be shown in 24 seconds for the demonstration of this video. The code uploaded is called "journey_clock.py".
 
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
 
