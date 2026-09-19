@@ -224,8 +224,11 @@ Gal Alon (https://github.com/ga386-hash/Interactive-Lab-Hub/tree/Fall2026/Lab%20
 
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
+
 Dave Wang: I like the character moving through the day a lot. I think it’s a nice way to check the time without immediately turning it into numbers, and I could see myself just glancing at it to get a sense of whether it’s still morning, the middle of the day, or getting late. The two buttons make sense too, especially the next-event countdown — I think I would actually use that more than checking the exact time sometimes. I do wonder if “Morning / Day / Evening” might feel a little too broad though. I’d probably make the character move continuously across the landscape so I can tell the difference between, say, 1 PM and 4 PM without pressing anything. Maybe the sky or scenery could slowly change too. I think that would make the whole journey idea feel even stronger.
+
 Jonathan Sharpy: I think it's a neat idea to have the display be a person traveling on a “journey through time” since that is essentially what the user is doing as well. It’s self reflective in a way that keeps you centered. It also makes use of the raspberry pi’s two buttons for extra features.
+
 Gal ALon: I really like the idea of the character doing different things throughout the day. Maybe create a theme for the character like him doing some sports activities, or traveling, etc. I think maybe adding some sort of better time implementation would help so the person looking at the clock would know exactly what time it is. 
 # Lab 2 Part 2
 
