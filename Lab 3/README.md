@@ -111,6 +111,8 @@ The demo script also shows `--output-raw`, which streams audio to the speaker as
 
 \*\***Then answer: Is the same greeting, in these different voices, the same greeting? Describe one concrete way the voice changed what the utterance seemed to mean or who seemed to be speaking.**\*\*
 
+Obviously not the same greeting because they all have different voices and the way it sounds and how it paces itself. eSpeak was a little terrifying since it sounds like a robotic voice while Piper sounds a bit uncanny, but human enough. Even if the words were the same, just the tone itself made me react to how I interpreted the personality and intention of the speakers.
+
 ## B. Speech to Text
 
 We use [faster-whisper](https://github.com/SYSTRAN/faster-whisper), a reimplementation of OpenAI's Whisper model that runs several times faster on CPU and does not require PyTorch. All processing happens on the Pi; nothing is sent to a server.
