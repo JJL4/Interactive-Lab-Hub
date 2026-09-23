@@ -133,6 +133,10 @@ Available sizes, smallest first: `tiny.en`, `base.en`, `small.en`, `medium.en`. 
 
 \*\***Record a few seconds of your own speech (`arecord -d 5 -f cd -c 1 -r 16000 test.wav`) and transcribe it with at least two model sizes. Report the real-time factor for each. At what point does the accuracy improvement stop being worth the delay, for a system that has to answer you?**\*\*
 
+<img width="1090" height="479" alt="image" src="https://github.com/user-attachments/assets/3d24b1ac-e555-420f-8d2a-bc9da002345b" />
+
+Testing within base and small, it seems like the bigger the model, the higher the real-time factor will be. If the transcript is already pretty accurate, I would think base or small is already good enough so my main priority is to reduce response delay rather than keep worrying about accuracy improvements. Also using a larger model adds a long waiting time so I feel using small is good enough for what it is.
+
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
 
 ## C. Turn-taking: knowing when someone has stopped talking
