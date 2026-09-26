@@ -109,6 +109,8 @@ The demo script also shows `--output-raw`, which streams audio to the speaker as
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+It is the file greet_jerry.sh
+
 \*\***Then answer: Is the same greeting, in these different voices, the same greeting? Describe one concrete way the voice changed what the utterance seemed to mean or who seemed to be speaking.**\*\*
 
 Obviously not the same greeting because they all have different voices and the way it sounds and how it paces itself. eSpeak was a little terrifying since it sounds like a robotic voice while Piper sounds a bit uncanny, but human enough. Even if the words were the same, just the tone itself made me react to how I interpreted the personality and intention of the speakers.
@@ -138,6 +140,8 @@ Available sizes, smallest first: `tiny.en`, `base.en`, `small.en`, `medium.en`. 
 Testing within base and small, it seems like the bigger the model, the higher the real-time factor will be. If the transcript is already pretty accurate, I would think base or small is already good enough so my main priority is to reduce response delay rather than keep worrying about accuracy improvements. Also using a larger model adds a long waiting time so I feel using small is good enough for what it is.
 
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
+
+It is the file number_input.sh
 
 ## C. Turn-taking: knowing when someone has stopped talking
 
