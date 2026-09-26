@@ -194,25 +194,39 @@ Focus Buddy: “Sure. What subject are you working on?”
 Wait: 0.4 seconds
 
 User replies: “Computer Architecture”
+
 Focus Buddy: “How long do you want to study for?”
+
 Wait: 0.4 seconds
 
 User replies: “30 minutes”
+
 Focus Buddy: “Alright, 30 minutes. Do you want to start now?”
+
 Wait: 0.4 seconds
 
 User replies: “Yes, please”
+
 Focus Buddy: “Okay, starting your session!”
+
 Wait: 0.4 seconds
 
 Focus Buddy: “Time’s up! Would you like to take a 5 minute break or is the session over?”
+
 Wait: 0.4 seconds
+
 User replies: "Can I have a 5-minute break, please?"
+
 Focus Buddy: "Sure, please be back in 5 minutes!"
+
 Wait: 0.4 seconds. User should probably not say anything
+
 or
+
 User replies: "End the session, please"
+
 Focus Buddy: "Alright, Focus Buddy out!"
+
 No more waiting unless reactivated.
 
 ## E. Acting out the dialogue
