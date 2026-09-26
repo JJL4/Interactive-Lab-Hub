@@ -165,6 +165,8 @@ Speak, pause, and watch it transcribe. Now change the endpointing threshold — 
 
 There is no correct value. A system that takes drink orders and a system that listens to someone think out loud want very different thresholds, and the right one depends on what your users are doing with their pauses.
 
+I tested it at default, 0.2 seconds, and 1.5 seconds delay. At 0.2 seconds, it felt very responsive, but it did cut me off sometimes so it transcribed in some awkward mid sentence transcriptions. At 1.5 seconds, it felt very much like I had to wait every time I finish speaking a sentence. With the default delay, it felt it was the right amount of waiting and speaking and it seems pretty responsive for when I was speaking. Transcription accuracy is a bit iffy regardless of delay, however. If I had to pick, I would still stick to the default.
+
 ### The complete loop
 
 `echo_bot.py` puts the pieces together: it listens, endpoints, transcribes, and speaks a reply through Piper. The dialogue policy is deliberately trivial — it repeats what you said — so that everything you notice is a property of the timing rather than the content.
