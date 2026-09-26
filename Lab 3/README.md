@@ -181,11 +181,39 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+<img width="2599" height="1310" alt="storyboardlab3" src="https://github.com/user-attachments/assets/8dd7d920-e8a5-442e-843a-5cbf71e800b0" />
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
 
 \*\***Please describe and document your process.**\*\*
 
 Your script should include the pauses. Where does your device wait, and for how long? You now know from Part C that this is a parameter you have to choose, not something that happens for free.
+
+User asks: “Start a study session”
+Focus Buddy: “Sure. What subject are you working on?”
+Wait: 0.4 seconds
+
+User replies: “Computer Architecture”
+Focus Buddy: “How long do you want to study for?”
+Wait: 0.4 seconds
+
+User replies: “30 minutes”
+Focus Buddy: “Alright, 30 minutes. Do you want to start now?”
+Wait: 0.4 seconds
+
+User replies: “Yes, please”
+Focus Buddy: “Okay, starting your session!”
+Wait: 0.4 seconds
+
+Focus Buddy: “Time’s up! Would you like to take a 5 minute break or is the session over?”
+Wait: 0.4 seconds
+User replies: "Can I have a 5-minute break, please?"
+Focus Buddy: "Sure, please be back in 5 minutes!"
+Wait: 0.4 seconds. User should probably not say anything
+or
+User replies: "End the session, please"
+Focus Buddy: "Alright, Focus Buddy out!"
+No more waiting unless reactivated.
 
 ## E. Acting out the dialogue
 
