@@ -235,6 +235,9 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+https://github.com/user-attachments/assets/6cb0983d-9ae9-453c-97a0-cdd76e949dcf
+
+It did feel a bit weird for the user to respond to my prompts. I had to start the prompt as the program and initiate the conversation before the user can respond. Also the user seemed confused at first when I asked if they're done with the study session or if they want a 5-minute break. I should probably clarify it better for the user to understand better. Other than that there doesn't seem any other issues and follows similarly to what I had planned script-wise.
 
 ---
 
