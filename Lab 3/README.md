@@ -266,6 +266,8 @@ The system should:
 
 *Document how the system works.*
 
+All of the work are done in focus_buddy_rotary.py.
+
 Focus Buddy is a speech-enabled study timer that combines voice interaction with a rotary encoder. The participant begins by speaking into the USB microphone, for example by saying, “Start a study session.” The Raspberry Pi runs the existing listen.py speech-recognition program in the background and displays the participant’s transcription in the terminal.
 The system uses a hidden wizard controller for the conversational parts of the interaction. The participant should not be able see this controller, but for the sake of this assignment this wizard will be relevant. After reading the microphone transcription, the hidden wizard selects the appropriate response. For example, after the participant asks to start a session, the wizard tells Focus Buddy to ask, “What subject are you studying?” When the participant answers, the microphone transcribes the subject and the wizard confirms that the system should continue. Focus Buddy then speaks its response through the connected speaker.
 
