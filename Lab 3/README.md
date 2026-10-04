@@ -252,6 +252,11 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 3. Make a new storyboard, diagram and/or script based on these reflections.
 4. (optional) Integrate [input devices](inputs.md) in the system
 
+1. I think if we are allowed to have an interface, the interface should introduce itself and give you instructions on what the user can say. I can't really do anything about the transcribing software itself and I think the default timings are fine. If there is a way to improve the transcribing then it would be that. Other than these issues, I have nothing else to improve on.
+2. Either the screen or terminal give instructions on what the user says at first. I think also adding feedback on what the user just said to make the transcriber seem like it is trying to listen can help the user feel a bit better like they are being heard.
+3. I think adding the rotary encoder and having a screen for the user to look at are the best additions to this device better. Dialogue about the amount of time and choosing whether to go on break or end session can make program easier to use and not require the user to say as much in case the program doesn't transcribe correctly.
+4. Rotary encoder
+
 ## Prototype your system
 
 The system should:
@@ -261,7 +266,19 @@ The system should:
 
 *Document how the system works.*
 
+Focus Buddy is a speech-enabled study timer that combines voice interaction with a rotary encoder. The participant begins by speaking into the USB microphone, for example by saying, “Start a study session.” The Raspberry Pi runs the existing listen.py speech-recognition program in the background and displays the participant’s transcription in the terminal.
+The system uses a hidden wizard controller for the conversational parts of the interaction. The participant should not be able see this controller, but for the sake of this assignment this wizard will be relevant. After reading the microphone transcription, the hidden wizard selects the appropriate response. For example, after the participant asks to start a session, the wizard tells Focus Buddy to ask, “What subject are you studying?” When the participant answers, the microphone transcribes the subject and the wizard confirms that the system should continue. Focus Buddy then speaks its response through the connected speaker.
+
+After the subject is chosen, control is given directly to the participant through the rotary encoder connected through the Mini PiTFT’s STEMMA QT port. Turning the encoder changes the desired study duration. Available durations include 1 minute for testing, followed by 5-minute increments up to 60 minutes. The currently selected duration is displayed in the terminal. Pressing the encoder confirms the duration, and pressing it a second time begins the study session.
+
+During the study session, the Raspberry Pi runs an actual countdown timer based on the selected duration. For example, selecting one minute produces a real countdown from 01:00 to 00:00. When the timer reaches zero, Focus Buddy announces that the session is complete.
+
+The participant can then use the rotary encoder to choose between a five-minute break and ending the session. Pressing the encoder confirms the selection. If a break is selected, a real five-minute countdown begins. When the break ends, Focus Buddy tells the participant that the break is over and returns to its idle state.
+The hidden Wizard-of-Oz controller also contains several testing controls. The wizard can repeat the current prompt, view the most recent speech transcription, inspect the current system state, skip the remaining study timer, or skip the five-minute break. 
+
 *Include videos or screencaptures of both the system and the controller.*
+
+https://drive.google.com/file/d/1-75d9p7fWejeEHvsZfMlzJymvyTh0MHU/view?usp=sharing
 
 ## Test the system
 
@@ -271,16 +288,16 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
-
+People were able to read the menu and know that they should say what was prompted. The secret wizard menu was also on the terminal screen so they know what's available and what to say afterwards ahead of time, but realistically they shouldn't be able to in a real setup without the wizard where everything is handled by the rotary encoder and their voice. 
 ### What worked well about the controller and what didn't?
 \*\**your answer here*\*\*
-
+The controller worked really well from the menu and the options worked as expected when they were pressed. Same issue, it shouldn't be seen by the user, but for this assignment it is working fine as is.
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 \*\**your answer here*\*\*
-
+The WoZ interaction showed parts of the conversation that an autonomous version would recognize reliably. The system would want to detect when a user wants to start a session, and decide what response would come next without the wizard manually choosing what happens. The interaction should show clear prompts and physical feedback so that the user know when to speak and when to use the rotary encoder. WoZ was also helpful with skipping the timer to see if all of the system worked or not to the end instead of waiting for a long time.
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 \*\**your answer here*\*\*
-
+The system could record each interaction as a sequence of events through the user's audio, transcription, timestamps, current system state, rotary encoder movements and button presses, and Focus Buddy's responses. This could create a dataset showing different people naturally phrase request and how long they to take to make selections. That dat could help train the autonomous version of Focus Buddy. Adding a proximity sensor can also make it better on whether someone is near the device and help make it better predicted on how it can be used. 
 <details>
   <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
 
