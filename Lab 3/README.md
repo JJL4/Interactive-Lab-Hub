@@ -252,10 +252,10 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 3. Make a new storyboard, diagram and/or script based on these reflections.
 4. (optional) Integrate [input devices](inputs.md) in the system
 
-1. I think if we are allowed to have an interface, the interface should introduce itself and give you instructions on what the user can say. I can't really do anything about the transcribing software itself and I think the default timings are fine. If there is a way to improve the transcribing then it would be that. Other than these issues, I have nothing else to improve on.
-2. Either the screen or terminal give instructions on what the user says at first. I think also adding feedback on what the user just said to make the transcriber seem like it is trying to listen can help the user feel a bit better like they are being heard.
-3. I think adding the rotary encoder and having a screen for the user to look at are the best additions to this device better. Dialogue about the amount of time and choosing whether to go on break or end session can make program easier to use and not require the user to say as much in case the program doesn't transcribe correctly.
-4. Rotary encoder
+1. Response to #1: I think if we are allowed to have an interface, the interface should introduce itself and give you instructions on what the user can say. I can't really do anything about the transcribing software itself and I think the default timings are fine. If there is a way to improve the transcribing then it would be that. Other than these issues, I have nothing else to improve on.
+2. Response to #2: Either the screen or terminal give instructions on what the user says at first. I think also adding feedback on what the user just said to make the transcriber seem like it is trying to listen can help the user feel a bit better like they are being heard.
+3. Response to #3: I think adding the rotary encoder and having a screen for the user to look at are the best additions to this device better. Dialogue about the amount of time and choosing whether to go on break or end session can make program easier to use and not require the user to say as much in case the program doesn't transcribe correctly.
+4. Response to #4: Rotary encoder
 
 ## Prototype your system
 
@@ -266,7 +266,7 @@ The system should:
 
 *Document how the system works.*
 
-All of the work are done in focus_buddy_rotary.py.
+All of the work was done in focus_buddy_rotary.py.
 
 Focus Buddy is a speech-enabled study timer that combines voice interaction with a rotary encoder. The participant begins by speaking into the USB microphone, for example by saying, “Start a study session.” The Raspberry Pi runs the existing listen.py speech-recognition program in the background and displays the participant’s transcription in the terminal.
 The system uses a hidden wizard controller for the conversational parts of the interaction. The participant should not be able see this controller, but for the sake of this assignment this wizard will be relevant. After reading the microphone transcription, the hidden wizard selects the appropriate response. For example, after the participant asks to start a session, the wizard tells Focus Buddy to ask, “What subject are you studying?” When the participant answers, the microphone transcribes the subject and the wizard confirms that the system should continue. Focus Buddy then speaks its response through the connected speaker.
