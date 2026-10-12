@@ -285,13 +285,30 @@ As you develop your Feast Automata concept, consider where the sensor and actuat
 
 **\*\*\*Draw 5 sketches that explore different physical arrangements for your sensing and actuation.\*\*\***
 
+<img width="3155" height="1310" alt="five_sketches" src="https://github.com/user-attachments/assets/8bb9a451-2c34-4472-9fdf-dd31c5543fd9" />
+
 **\*\*\*What questions do these sketches raise? What do you need to physically prototype to answer them?\*\*\***
 
+These sketches raise questions about which mechanism would be easiest to build and how reliably the distance sensor can detect a hand. We also need to consider where to position the servo, how much space there is for each moving part, and whether the cardboard structure can support the movement without getting stuck. Some designs, like the trapdoor, would also need a way to return the cookie to its original position. To answer these questions, we need to prototype the different door mechanisms using cardboard, test the distance sensor at different positions, and experiment with the servo's movement to see which design works the best.
+
 **\*\*\*Pick one design to prototype and explain why.\*\*\***
+
+I feel the easiest and cleanest setup is the Swinging Door setup. It is the easiest to construct with cardboard, requires at least one servo, and offers a clear interaction when a hand approaches and for the user to understand what is happening when they do put their hand nearby. 
 
 Build a cardboard or other low-fidelity physical prototype of your design.
 
 **\*\*\*Document your rough prototype with photos and/or video.\*\*\***
+<img width="1136" height="2020" alt="20261011_211217" src="https://github.com/user-attachments/assets/ce047841-9210-4eea-bd5a-affc04c4a081" />
+Pretend rotary encoder is a cookie. This is the default state where a hand has not appeared yet. Servo setup should be attached to the cardboard "door" and the distance sensor should be on the inside part of the "door" or on top, near the "door",  to detect if a hand or any object is coming or not.
+
+<img width="1231" height="2188" alt="20261011_211237" src="https://github.com/user-attachments/assets/3ce995ab-5c5a-4496-a057-775d64efaef0" />
+Hand starts approaching and distance sensor should detect something by reading large values according to the distance sensor python script and alert the servo to start activating and closing the door
+
+<img width="1234" height="2194" alt="20261011_211249" src="https://github.com/user-attachments/assets/37c0bfcc-644b-4efa-8a84-f94e5f4b309d" />
+Hand is still there and the cardboard "door" is shut. The "door" will stay shut until the hand goes away.
+
+<img width="1152" height="2047" alt="20261011_211308" src="https://github.com/user-attachments/assets/f6ac04cb-205d-46dd-ae1d-38f32be65f8d" />
+Hand goes away and servos start activating to go back to its default state. The cookie never left its home!
 
 ---
 
