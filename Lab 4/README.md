@@ -338,11 +338,22 @@ For Part 2, build the Feast Automata interaction you developed in Part D by conn
 
 **Questions to consider:**
 - How does your chosen sensor or input shape the physical response?
+     Distance sensor just checks if there is something coming to our box or not and see if it will come close and if it comes close, it shuts door and if approaching object goes away, then the door opens.
 - How does the physical arrangement of the sensor and actuator change the interaction?
+     It got a little complicated to get to the setup but it does the job in concept. Door does not open all the way, but the status is still open and then close if hand gets close.
 - What thresholds, timing, or movement patterns make the interaction feel clear or playful?
+     There is a tiny amount of time where you can try to get the snack/cookie inside before the door shuts completely. 
 - What changes when you adjust the sensor placement or servo motion?
-
+     There could be an actual place to put the distance sensor on the product itself, but unfortunately there is no way to have it upright next to an edge of the the surface of the box. Implementing that can make the product look cleaner.
 Iterate on the sensing, movement, and physical form, and document what you discover.
+
+Interaction Diagram:
+
+<img width="725" height="429" alt="image" src="https://github.com/user-attachments/assets/40016099-ba0e-4769-81b2-166767838e41" />
+
+Written Reflection:
+
+For Shy Cookie, I connected a proximity sensor to a servo motor to create a playful interaction where a cardboard door closes when someone reaches for a cookie and reopens when their hand moves away. One challenge was physically attaching the servo to the cardboard door so it could move properly. I also tried to handle sensor placement and and learn how to handle servo positioning are important for making the interaction work reliably. The most satisfying part was seeing the sensor and servo work together to make the cardboard prototype respond automatically to someone's hand.
 
 See encoder_accel_servo_dashboard.py in the Lab 4 folder for an optional example of chaining together three devices.
 
@@ -508,6 +519,17 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Acts like": shows how a person would interact with the device
 
 ---
+Looks like:
+<img width="1202" height="2136" alt="20261018_174531" src="https://github.com/user-attachments/assets/8b95f3c3-296d-45ce-9474-99ec75cd56e8" />
+<img width="1126" height="2002" alt="20261018_174537" src="https://github.com/user-attachments/assets/01b55dcc-09d0-4011-978f-2cf8b63ec07b" />
+<img width="1134" height="2016" alt="20261018_174541" src="https://github.com/user-attachments/assets/2456af35-6d61-4a57-b08e-0a6e2d496f3c" />
+Pretend the rotary encoder is a cookie or any snack you like. The reason I didn't put one in there is because it felt unsanitary to put a cookie in there and clean up my surroundings later. This still serves a food purpose if you do put in one as it can be a playful way for you to get your food or to actually deter yourself from actually getting the food.
+
+Works like and acts like: 
+
+Google Drive link for demonstration for how it works and how a person would try to interact with the product: https://drive.google.com/file/d/1GwaVYUiNq6XhQUWu0XdgN9i9wiDdPGkF/view?usp=sharing
+
+To make this work, use shy_cookie.py on Lab 4's Github to make it work.
 
 ## Deliverables \& Submission for Lab 4
 
