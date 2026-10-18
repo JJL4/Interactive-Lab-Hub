@@ -18,7 +18,7 @@
 
 ## Lab Overview
 Team: Jerry Lee solo 
-Members: Jerry Lee: jdl344, jerryjimmylee4 (netid, github-handle), ...  
+Members: Jerry Lee: jdl344, JJL4 (netid, github-handle), ...  
 Project name: Shy Cookie
 
 
