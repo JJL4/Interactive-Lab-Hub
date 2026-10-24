@@ -132,6 +132,7 @@ pi@raspberrypi:~ $ ollama list
 | `qwen3:0.6b` | ~0.5 GB | text only, smaller and faster (~16 tokens/s on a Pi 5) |
 
 \*\*\***Include a screenshot of `ollama list` showing your models.**\*\*\*
+<img width="1164" height="681" alt="image" src="https://github.com/user-attachments/assets/e360b3fc-0687-48da-9583-bb0148d6d39d" />
 
 
 ## Part B. 
@@ -157,7 +158,9 @@ Then press q to quit and run it again with a flag. Each one changes a single thi
 ```
 
 \*\*\***Include a short video or screenshots of the person detection.**\*\*\*
-
+<img width="765" height="615" alt="image" src="https://github.com/user-attachments/assets/a69192af-e487-4a91-a5f0-fb3a7dc9f2d3" />
+<img width="826" height="596" alt="image" src="https://github.com/user-attachments/assets/f4ecc0db-0878-4c0a-8a23-decafa7e3ef3" />
+First image is it working and second image is it not working because a hand is covering the camera.
 
 ## Part C. 
 ### See more: hands and pose with MediaPipe
@@ -184,6 +187,10 @@ Try the two main features of this script: 1) pinching for percentage control (th
 Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.
 
 \*\*\***Include a screenshot or short video of the hand pose demo, and write how you might use face, hand or body pose tracking in your observant system.**\*\*\*
+
+https://github.com/user-attachments/assets/8bc741b9-a0c1-45ce-ad60-f930ec2b121c
+
+I can use the hand pose tracking to control my observant system through simple gestures to pinch my fingers to adjust settings in a program or something similar to Quiet Coyote to stop monitoring or mute audio. No need for physical buttons!
 
 
 ## Part D. 
@@ -221,7 +228,33 @@ A 0.8B model is slow and sometimes wrong. It will invent events that are not in 
 <details>
   Q&A here
 </details>
+<img width="1905" height="326" alt="image" src="https://github.com/user-attachments/assets/f6a66613-c26c-44d5-859e-4988ca5c553c" />
 
+Question 1: What is the capital of Japan?
+
+Answer: The capital of Japan is Tokyo.
+
+Time: 1.5 seconds (qwen3.5:0.8b)
+
+Question 2: What can a Raspberry Pi 5 be used for?
+
+Answer: The Raspberry Pi 5 is a versatile computer capable of running web browsers, running applications like Python and Docker, and serving as a powerful IoT hub for smart home devices. It also supports hardware acceleration for gaming, video streaming, and cloud computing tasks.
+
+Time: 8.3 seconds (qwen3.5:0.8b)
+
+Question 3: What is the difference between object detection and image classification?
+
+Answer: Object detection identifies specific objects within an image by finding multiple distinct entities, while image classification assigns each object to a predefined category based on its visual features.
+
+Time: 6.6 seconds (qwen3.5:0.8b)
+
+Model Comparison (Question 2):
+
+I asked qwen3:0.6b the same question about Raspberry Pi 5 applications.
+
+Answer: A Raspberry Pi 5 can be used as a small bedside device for various purposes, such as controlling smart home systems, monitoring health data, or even as a simple IoT device for home automation. It is a versatile platform for learning and experimentation.
+
+Time: 10.8 seconds (qwen3:0.6b)
 
 ## Part E. 
 ### Connect: from YOLO readings to Qwen reasoning
