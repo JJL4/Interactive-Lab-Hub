@@ -315,6 +315,11 @@ Stuck? A kitchen that tells you who raided the fridge. A desk that reports wheth
 Use storyboards and/or [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf).
 
 \*\*\***Insert ideas, sketches, Verplank diagrams and storyboards for your night-time interaction here.**\*\*\*
+<img width="1940" height="1020" alt="storyboard cup" src="https://github.com/user-attachments/assets/410e1663-6c6a-4c70-9d0b-cf1cb3ef1549" />
+
+Cup/Mug Watcher
+
+User should place a cup on the desk and start the monitoring system before going to sleep. The Raspberry Pi and webcam are aimed at the desk and the device itself confirms it is working. While the user is asleep, the system will periodically capture images of the desk and uses YOLO to detect whether the mug is there or not. The system should log the results with timestamps and records any changes, such as when the cup disappearing or disappearing. When the user wakes up, the the user checks the device for a summary of the night. Qwen should read the logs and generate a short report explaining whether the mug stayed in view at night or not.
 
 ## Prep for Part 2
 
@@ -325,6 +330,11 @@ Use storyboards and/or [Verplank diagrams](https://ccrma.stanford.edu/courses/25
 4. Revise your storyboard with the feedback and with what you learned in Part E about where the pipeline breaks.
 
 \*\*\***Post your revised storyboard here.**\*\*\*
+<img width="1940" height="1020" alt="storyboard cup revised" src="https://github.com/user-attachments/assets/a3295ae4-4029-4201-89a6-4d8e16dd8ea8" />
+
+Also would like to add that the user can use the Quiet Coyote gesture to start their program to use beforehand.
+
+Added more elaborate information.
 
 ## Part G. 
 ### Design the interaction before
@@ -332,6 +342,8 @@ Use storyboards and/or [Verplank diagrams](https://ccrma.stanford.edu/courses/25
 The hand-off: the person tells the device what to watch tonight, and the device acknowledges it. Keep it to a thirty-second ritual. A button or a touch (Lab 4), a spoken sentence (Lab 3), a wave or a Quiet Coyote at the camera (Part C). The acknowledgement can be a line on the display, a tone, or an LED that dims rather than lights up. At its simplest, the hand-off just sets the question that the morning will answer.
 
 \*\*\***Describe the interaction before.**\*\*\*
+
+Before the user goes to sleep, the user will place their cup on the desk where the webcam can see it. The user starts the monitoring program by doing the Quiet Coyote gesture to the camera and then the program starts to check periodically whether the mug is present using YOLO object detection. When I wake up, I can stop the program from running by doing the Quiet Coyote gesture and it should log everything on the Mini PiTFT. 
 
 ## Part H. 
 ### Incorporate the observant system
@@ -347,6 +359,10 @@ Fake a night first: run it for thirty seconds while you walk around, stop it, an
 
 \*\*\***Screenshots or videos of the running system.**\*\*\*
 
+<img width="669" height="357" alt="image" src="https://github.com/user-attachments/assets/2d429b9e-6950-4f98-a3f7-f04dc44f1f96" />
+
+The image above shows running overnight.py as it was. For my own midnight_mug.py project, I modified the observant system using the YOLO object detection and have it only detect for cups and records if it is present or not. The system checks periodically and records it in mug_night_log.jsonl. I have also implemented a webcam display with useful heads-up display info and also implemented it in the Mini Pi TFT display. On the heads-up display for the webcam, it displays YOLO's bounding boxes and detection confidence levels. MediaPipe was also integrated to detect the Quiet Coyote hand gesture from Part C of the lab. During testing I simulated it for around 2 minutes and have it detect if the cup moved or not and then have the timestamps displayed in the jsonl file. YOLO was pretty inconsistent in trying to detect the the cup and my Quiet Coyote hand gesture but it still showed it working. Check out the video in the Google Drive for more info. 
+
 ## Part I. 
 ### Design the interaction after
 
@@ -358,6 +374,12 @@ The reveal. The night produced a log; the morning turns it into something a half
 
 Make it yours: show the report on the Mini PiTFT, read it aloud with Piper from Lab 3, plot the night as a timeline, or ask for JSON (`--json`, Part D) and move a servo. Whatever you pick, make sure it is honest about a night in which nothing happened.
 
+<img width="649" height="194" alt="image" src="https://github.com/user-attachments/assets/e66a9043-82c1-4bbe-ab06-ffc6aa519049" />
+
+Qwen seems to be hallucinating with its generated data probably because it was working with nothing and just checking my fingers and the cup. Regardless the Qwen model is working and tries to make sense of what is going on. I will decide to put the report on the MiniPiTFT as to make it mine.
+
+For my own program, the user can do the Quiet Coyote gesture again to stop the monitoring. The Qwen model then generates a short morning report on both the webcam display and the Mini Pi TFT screen and tells what happens to the mug. During testing of this program, I have noticed that Qwen sometimes generate inaccurate explanations such as claiming the mug moved even though YOLO only recorded whether the mug is still detected or not. To fix this, I revised the logic to restrict the output to factual concrete observations rather than let Qwen make assumptions about movement. Look more at the video for demonstration.
+
 ## Final documentation
 
 Document all the prototypes and iterations you have designed and worked on. The deliverables for this lab are writings, sketches, photos, and videos that show what your system:
@@ -367,6 +389,16 @@ Document all the prototypes and iterations you have designed and worked on. The 
 * "Acts like": how a person hands the night over and what they get back.
 
 \*\*\***Include a short video of the whole system**\*\*\*
+
+https://drive.google.com/file/d/197-57fKrlGbfUR5L_HpbjscfYg6GikGM/view?usp=sharing 
+
+Looks like: A system consisting of a Raspberry Pi, Mini Pi TFT, and a camera with the camera pointed my mug.
+
+Works like: The program uses YOLO to periodically check if the mug is still there and records observations with timestamps. MediaPipe recognizes the Quiet Coyote hand gesture to control monitoring. When the observations are over, the data is handed to Qwen for analysis. 
+
+Acts like: Before going to bed, the user should place the mug where the camera can see and detect it and then do the Quiet Coyote gesture to start monitoring. During the night, the system checks whether the mug still remains detected and then report any anomalies if anything else happens. Once the user wakes up, the user can do the Quiet Coyote gesture to stop monitoring and have Qwen do an analysis. 
+
+Not displayed in the video but moving the cup as it somehow disappears should update it that it's not there anymore with labelled time-stamp and also it stating when the cup comes back, too.
 
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
 
