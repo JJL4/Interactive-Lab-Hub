@@ -1,10 +1,10 @@
 # Observant Systems: Overnight Sensation
 
-**Team:**
+**Team:** Yuqi Wang, Jerry Lee
 
 **Members:** Full Name (netid, github-handle), ...
-
-**Project name:**
+Yuqi Wang (yw2897), Jerry Lee (jdl344)
+**Project name:** Mug Watcher
 
 <details>
 	<summary><strong>Instructions for Students (Click to Expand)</strong></summary>
@@ -329,6 +329,9 @@ User should place a cup on the desk and start the monitoring system before going
 3. Decide where the device will spend the night and who else lives there. Get their OK before the first run.
 4. Revise your storyboard with the feedback and with what you learned in Part E about where the pipeline breaks.
 
+Yuqi Wang stated the following for feedback:
+I like how you’ve focused on just one object, which makes the idea easy to follow. I’d add a quick “Monitoring started” message so the user knows it’s working before going to bed. It would also be interesting to show what happens if someone removes the mug during the night. The morning report could say when it was last seen, or that it appeared in every recorded sample. That would make the report more useful and specific than “nothing unusual happened,” especially if poor lighting caused the camera to miss it.
+
 \*\*\***Post your revised storyboard here.**\*\*\*
 <img width="1940" height="1020" alt="storyboard cup revised" src="https://github.com/user-attachments/assets/a3295ae4-4029-4201-89a6-4d8e16dd8ea8" />
 
@@ -398,7 +401,7 @@ Works like: The program uses YOLO to periodically check if the mug is still ther
 
 Acts like: Before going to bed, the user should place the mug where the camera can see and detect it and then do the Quiet Coyote gesture to start monitoring. During the night, the system checks whether the mug still remains detected and then report any anomalies if anything else happens. Once the user wakes up, the user can do the Quiet Coyote gesture to stop monitoring and have Qwen do an analysis. 
 
-Not displayed in the video but moving the cup as it somehow disappears should update it that it's not there anymore with labelled time-stamp and also it stating when the cup comes back, too.
+Not displayed in the video but moving the cup as it somehow disappears should update it that it's not there anymore with labelled time-stamp and also it stating when the cup comes back, too. ChatGPT was used to help with debugging and adding some functionality to improve the functionality of my project.
 
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
 
