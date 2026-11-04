@@ -2,6 +2,12 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+Jerry D. Lee (jdl344)
+
+Yuqi Wang (yw2897)
+
+Youssef Hassan (yh2443)
+
 For submission, replace this section with your documentation!
 
 ---
@@ -59,6 +65,12 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 ![MQTT Explorer showing messages](imgs/MQTT-explorer.png)
 
 **💡 Brainstorm 5 ideas for messaging between devices**
+
+1. Smart room lighting: One Raspberry Pi detects the room brightness with a light sensor and also sends a MQTT message to another Raspberry Pi to adjust brightness.
+2. Motion detector: One Pi can use a sensor to detect movement and then send a message to another Pi to display a warning or a sound.
+3. Musical Raspberry Pi band: Use multiple sensors to control pitch, volume, tempo to create music together.
+4. Multiple room temperature measurer and average it out: Get multiple Raspberry Pis and put them in different rooms and publish their readings. Then calculate their average and display the average temperature.
+5. Interactive game, One Pi sends a random signal to another Pi which prompts the player to respond quickly as possible. Their reaction time will be sent through MQTT to display the results.
 
 MQTT agrees on almost nothing in advance: you invent the topics and what the messages mean. Smart-home standards like Matter fix the vocabulary instead (every "light" behaves the same). Keep this trade-off in mind when you design your topics in Part C.
 
@@ -126,6 +138,8 @@ Hold colored objects near sensor to change your pixel!
 ![Pixel grid with two devices](imgs/two-devices-grid.png)
 
 **📸 Include: Screenshot of grid + photo of your Pi setup**
+<img width="1919" height="1034" alt="image" src="https://github.com/user-attachments/assets/950d82cf-fc91-42ac-804f-c81d18e86fd7" />
+<img width="1292" height="2297" alt="20261104_183953" src="https://github.com/user-attachments/assets/35f3170a-7e69-471a-bef7-327cfb32c95c" />
 
 ---
 
